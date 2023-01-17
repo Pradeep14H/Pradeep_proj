@@ -1,0 +1,27 @@
+package threads;
+
+public class practice extends thread{
+	public void run()
+	{
+		try{
+			System.out.println("thread 1 started......");
+			Thread.sleep(300);
+			System.out.println("thread 2 started......");
+			thread.sleep(300);
+			System.out.println("thread 3 started......");
+			
+		}
+		catch(InterruptedException e)
+		{
+			System.out.println(e);
+			
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+	}
+
+}

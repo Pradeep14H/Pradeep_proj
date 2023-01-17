@@ -1,0 +1,19 @@
+package Mypackage;
+
+public class bankaccount {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		float p=1000;
+		float r=8.5;
+		float t=20;
+		float si;
+		for(t=1;t<=20;t++){
+			si=(p*t*r)/100;
+			System.out.println(si);
+		}
+		
+
+	}
+
+}
